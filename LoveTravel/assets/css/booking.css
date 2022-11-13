@@ -1,0 +1,50 @@
+.book__heading {
+    z-index: -1;
+    left: 50%;
+    margin-left: -525px;
+    top: -150px;
+    color: #f7f7f7;
+    font-size: 200px;
+    line-height: 180px;
+    letter-spacing: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    margin: 0 auto;
+    pointer-events: none;
+    user-select: none;
+}
+
+.booking__item {
+    margin-bottom: 50px;
+}
+
+.booking__item--title {
+    color: var(--black4);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.booking__item--desc {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.booking__item--title span {
+    background: linear-gradient(to right,
+            #1bbc9b 0%,
+            #14b9d5 100%);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: var(--white);
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 100%;
+    margin-right: 15px;
+}

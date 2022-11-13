@@ -44,10 +44,6 @@ h6 {
     overflow-wrap: break-word;
 }
 
-#wrapper {
-    height: 1000px;
-}
-
 html {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
@@ -55,4 +51,9 @@ html {
 
 ul {
     list-style-type: none;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
 }
