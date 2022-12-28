@@ -161,15 +161,14 @@
 
 .header__info--heading span {
     background: linear-gradient(to right, #1bbc9b 0%, #14b9d5 100%);
-    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header__info--desc {
     line-height: 32px;
     margin-bottom: 40px;
-    font-size: 15px;
-    letter-spacing: 2px;
+    lsp
 }
 
 .header__info--buybtn {

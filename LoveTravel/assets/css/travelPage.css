@@ -1,0 +1,68 @@
+.travel {
+  background-image: url("../img/para-5.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  color: var(--white);
+  position: relative;
+  min-height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.travel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(46, 46, 46, 0.6) 10%,
+    rgba(45, 45, 45, 0.3) 90%
+  );
+}
+
+.travel_wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.travel-content__subheading {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: var(--white);
+}
+
+.travel-content__heading {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: var(--white);
+}
+
+.travel-content__para {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.travel-content__btn--link {
+  background-color: var(--white);
+  border-radius: 35px;
+  color: var(--);
+  color: var(--black5);
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 12px 35px;
+}
+
+.travel-content__btn--link:first-child {
+  margin-right: 20px;
+}

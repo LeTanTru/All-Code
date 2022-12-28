@@ -160,9 +160,9 @@
 }
 
 .header__info--heading span {
+    -webkit-background-clip: text;
     background: linear-gradient(to right, #1bbc9b 0%, #14b9d5 100%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 
 .header__info--desc {

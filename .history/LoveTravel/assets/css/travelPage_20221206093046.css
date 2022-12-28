@@ -1,0 +1,57 @@
+.travel-page {
+    background-image: url("../img/para-5.jpg");
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    color: var(--white);
+    position: relative;
+}
+
+.travel-page::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left,
+            rgba(46, 46, 46, 0.6) 10%,
+            rgba(45, 45, 45, 0.3) 100%);
+}
+
+.travel-page__content--heading {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.travel-page__content--subheading {
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.travel-page__content--paragraph {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.travel-page__content--btn {
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.travel-page__content--btn-link {
+    display: inline-block;
+    border-radius: 35px;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    color: var(--black5);
+    background: var(--white);
+}
+
+.travel-page__content--btn-link:first-child {
+    margin-right: 15px;
+}
