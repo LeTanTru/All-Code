@@ -1,0 +1,37 @@
+.top-bar {
+    height: 55px;
+    background-color: var(--black1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid var(--black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.top-bar__logo {
+    width: 152px;
+    height: 18px;
+}
+
+.top-bar__logo--img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.top-bar__buy--btn {
+    padding: 8px 20px;
+    background-color: var(--green1);
+    font-size: 14px;
+    color: var(--white);
+    border-radius: 2px;
+    transition: all linear 0.2s;
+}
+
+.top-bar__buy--btn:hover {
+    background-color: var(--green2);
+}
