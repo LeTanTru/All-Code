@@ -3,7 +3,7 @@ const hoursEle = document.querySelector(".hours");
 const minutesEle = document.querySelector(".minutes");
 const secondsEle = document.querySelector(".seconds");
 
-const comingDays = "4/29/2023"
+const comingDays = "4/29/2021"
 const date = new Date();
 const dateEnd = new Date(comingDays);
 const difference = dateEnd.getTime() - date.getTime();

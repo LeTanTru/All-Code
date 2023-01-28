@@ -22,7 +22,7 @@ secondsEle.innerText = seconds + "s";
 
 setInterval(() => {
   const date = new Date();
-  const dateEnd = new Date(comingDays);
+  const dateEnd = new Date("5/14/2023");
   const difference = dateEnd.getTime() - date.getTime();
   const days = Math.floor(difference / (1000 * 86400));
   const hours = Math.floor(difference / (1000 * 3600) - days * 24);
