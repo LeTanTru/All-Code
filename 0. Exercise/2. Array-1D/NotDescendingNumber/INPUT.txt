@@ -1,0 +1,14 @@
+Cho 1 hoán vị độ dài n đuợc miêu tả bởi n số nguyên dương pi
+​Do bất cẩn Bob đã đánh mất hoán vị ban đầu, điều duy nhất Bob nhớ đó là các giá trị pi - p(i-1) | i = 2, 3, 4,...,n
+Nhiệm vụ của bạn là giúp Bob tìm ra hoán vị ban đầu.
+
+Dữ liệu vào
+Dòng đầu tiên gồm số nguyên duơng n.
+Dòng thứ 2 gồm 
+n−1 số nguyên qi miêu tả hiệu 2 số liên tiếp trong hoán vị.
+
+Dữ liệu ra
+In ra trên một dòng hoán vị ban đầu. Nếu có nhiều dãy số thỏa mãn, in ra kết quả có tổng các phần tử trong dãy là nhỏ nhất.
+Nếu không tồn tại hoán vị nào thỏa mãn in ra -1.
+
+Viết chương trình C++ để giải nó
