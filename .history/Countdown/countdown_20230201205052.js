@@ -1,5 +1,5 @@
 const $ = (x) => {
-  return document.querySelector(x);
+  return document.getElementById(x);
 };
 
 const daysEle = $(".days");

@@ -1,11 +1,9 @@
-const $ = (x) => {
-  return document.querySelector(x);
-};
+const $ = document.querySelector()
 
-const daysEle = $(".days");
-const hoursEle = $(".hours");
-const minutesEle = $(".minutes");
-const secondsEle = $(".seconds");
+const daysEle = document.querySelector(".days");
+const hoursEle = document.querySelector(".hours");
+const minutesEle = document.querySelector(".minutes");
+const secondsEle = document.querySelector(".seconds");
 
 const comingDays = "4/29/2023";
 const date = new Date();

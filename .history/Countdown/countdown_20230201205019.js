@@ -1,12 +1,15 @@
+function $(x) {
+  return document.getElementById(x);
+
+
 const daysEle = document.querySelector(".days");
 const hoursEle = document.querySelector(".hours");
 const minutesEle = document.querySelector(".minutes");
 const secondsEle = document.querySelector(".seconds");
 
-console.log({ daysEle, hoursEle, minutesEle, secondsEle });
-
+const comingDays = "4/29/2023";
 const date = new Date();
-const dateEnd = new Date("1/1/2023");
+const dateEnd = new Date(comingDays);
 const difference = dateEnd.getTime() - date.getTime();
 const days = Math.floor(difference / (1000 * 86400));
 const hours = Math.floor(difference / (1000 * 3600) - days * 24);
@@ -23,7 +26,7 @@ secondsEle.innerText = seconds + "s";
 
 setInterval(() => {
   const date = new Date();
-  const dateEnd = new Date("1/1/2023");
+  const dateEnd = new Date(comingDays);
   const difference = dateEnd.getTime() - date.getTime();
   const days = Math.floor(difference / (1000 * 86400));
   const hours = Math.floor(difference / (1000 * 3600) - days * 24);

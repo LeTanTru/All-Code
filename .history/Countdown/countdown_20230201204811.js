@@ -3,10 +3,9 @@ const hoursEle = document.querySelector(".hours");
 const minutesEle = document.querySelector(".minutes");
 const secondsEle = document.querySelector(".seconds");
 
-console.log({ daysEle, hoursEle, minutesEle, secondsEle });
-
+const comingDays = "/6/2023";
 const date = new Date();
-const dateEnd = new Date("1/1/2023");
+const dateEnd = new Date(comingDays);
 const difference = dateEnd.getTime() - date.getTime();
 const days = Math.floor(difference / (1000 * 86400));
 const hours = Math.floor(difference / (1000 * 3600) - days * 24);
@@ -19,11 +18,11 @@ const seconds = Math.floor(
 daysEle.innerText = days + "d";
 hoursEle.innerText = hours + "h";
 minutesEle.innerText = minutes + "m";
-secondsEle.innerText = seconds + "s"; 
+secondsEle.innerText = seconds + "s";
 
 setInterval(() => {
   const date = new Date();
-  const dateEnd = new Date("1/1/2023");
+  const dateEnd = new Date(comingDays);
   const difference = dateEnd.getTime() - date.getTime();
   const days = Math.floor(difference / (1000 * 86400));
   const hours = Math.floor(difference / (1000 * 3600) - days * 24);
@@ -37,5 +36,4 @@ setInterval(() => {
   hoursEle.innerText = hours + "h";
   minutesEle.innerText = minutes + "m";
   secondsEle.innerText = seconds + "s";
-  // console.log({ days, hours, minutes, seconds });
 }, 1000);

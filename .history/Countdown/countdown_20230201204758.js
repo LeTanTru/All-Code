@@ -1,13 +1,9 @@
-const $ = (x) => {
-  return document.querySelector(x);
-};
+const daysEle = document.querySelector(".days");
+const hoursEle = document.querySelector(".hours");
+const minutesEle = document.querySelector(".minutes");
+const secondsEle = document.querySelector(".seconds");
 
-const daysEle = $(".days");
-const hoursEle = $(".hours");
-const minutesEle = $(".minutes");
-const secondsEle = $(".seconds");
-
-const comingDays = "4/29/2023";
+const comingDays = "2/6/2023";
 const date = new Date();
 const dateEnd = new Date(comingDays);
 const difference = dateEnd.getTime() - date.getTime();
